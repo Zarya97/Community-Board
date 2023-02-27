@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.Header {
+  position: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 15px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.BannerTitle {
+  width: 500px;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.BannerImg {
+  width: 500px;
+  height: auto;
+  max-height: 100px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+

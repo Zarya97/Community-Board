@@ -1,0 +1,42 @@
+.Post {
+    color: #000;
+    background-color: black;
+    padding-bottom: 20px;
+    box-shadow: 0 15px 25px #817c7c33;
+    font-size: medium;
+    border-radius: 14px;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    margin-bottom: 30px;
+    height: 525px;
+}
+
+.Post img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+.Post button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 0 15px 25px #817c7c33;
+    border: 1px solid #000;
+}
+
+button:hover {
+    background-color: green;
+    color: #000;
+    border: 1px solid #000;
+}
+
+p {
+    color: #fff;
+}
